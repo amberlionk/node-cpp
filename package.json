@@ -1,7 +1,7 @@
 {
   "name": "node-cpp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Examples of how to bind C++ addon to node.js",
   "main": "index.js",
   "gypfile": true,
   "scripts": {
@@ -9,7 +9,11 @@
     "clean": "node-gyp clean"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amberlionk/node-cpp"
+  },
+  "author": "amberlionk",
   "license": "ISC",
   "dependencies": {
     "bindings": "^1.5.0",
